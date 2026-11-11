@@ -17,7 +17,7 @@ hero:
 
     - theme: alt
       text: About Me
-      link: /about/
+      link: https://abhisheksahanibuilds.github.io/
 ---
 
 ## <u>Welcome to my Documentation Hub</u>
@@ -30,14 +30,14 @@ My approach is simple: build fast and useful things, keep them accessible, and d
 
 Browse documentation organized around the areas I work with:
 
-- [**Web Development**](/categories/web-development/) — Websites, interfaces, frontend and backend development.
-- [**AI / ML**](/categories/ai-ml/) — AI integrations, machine learning experiments, and related tools.
-- [**Arduino & Electronics**](/categories/arduino-electronics/) — Microcontrollers, circuits, sensors, and hardware projects.
-- [**Python & Automation**](/categories/python-automation/) — Python applications, scripts, and automation experiments.
+- **Web Development** — Websites, interfaces, frontend and backend development.
+- **AI / ML** — AI integrations, machine learning experiments, and related tools.
+- **Arduino & Electronics** — Microcontrollers, circuits, sensors, and hardware projects.
+- **Python & Automation** — Python applications, scripts, and automation experiments.
 
 **Want to see Project Documentations? :** [Browse All Projects](/projects/)
 
-**Want to know Technologies used in those Projects? :**[ Explore Technologies](/technologies/)
+**Want to know Technologies used in those Projects? :** [Explore Technologies](/technologies/)
 
 ## <u>About the Developer</u>
 
@@ -47,7 +47,7 @@ I build independent, open-source projects with a focus on **speed, accessibility
 
 **My philosophy:** <i>"Hard things are easy until your mind makes them difficult."</i>
 
-**Want to learn more about me? :** [Portfolio --under development--]
+**Want to learn more about me? :** [Portfolio](https://abhisheksahanibuilds.github.io/)
 
 ## <u>Technologies & Tools</u>
 

@@ -15,7 +15,7 @@ I build projects with a focus on speed, simplicity, accessibility, and functiona
 
 ### ⚡ Quick Switch - Fast Response, Less Waiting!
 
-- **See Documentation:** [Quick-Switch](/projects/Quick-Switch)
+- **See Documentation:** [Quick Switch](./Quick-Switch/)
 - **Repository:** [Github](https://github.com/AbhishekSahaniBuilds/Quick-Switch)
 
 ---

@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  base: "/Doc-Stack/",
   title: "Documentation",
   description: "The All-in-One Documentation Hub",
 

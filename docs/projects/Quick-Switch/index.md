@@ -290,7 +290,7 @@ Quick Switch requires a Groq API key to communicate with Groq models.
 
 Create a `.env` file inside the backend directory:
 
-```env
+```bash
 GROQ_API=your_groq_api_key_here
 ```
 
