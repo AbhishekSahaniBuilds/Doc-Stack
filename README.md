@@ -50,8 +50,8 @@ Doc-Stack uses GitHub Actions to automatically build and deploy the website to G
 
 ## Links
 
-- **Live Website:** [Doc-Stack](https://abhisheksahanibuilds.github.io/Doc-Stack/)
-- **GitHub Repository:** [Doc-Stack](https://github.com/AbhishekSahaniBuilds/Doc-Stack)
+- **Live Website:** https://abhisheksahanibuilds.github.io/Doc-Stack
+- **GitHub Repository:** https://github.com/AbhishekSahaniBuilds/Doc-Stack
 
 ## Purpose
 
