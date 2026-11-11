@@ -39,6 +39,10 @@ export default defineConfig({
               text: "Quick Switch",
               link: "/projects/Quick-Switch/",
             },
+            {
+              text: "Doc Stack",
+              link: "/projects/Doc-Stack/",
+            },
           ],
         },
       ],

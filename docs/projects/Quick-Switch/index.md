@@ -608,7 +608,7 @@ Project Repository:
 
 **Personal Note:**
 
-_Hi! I am Abhishek Sahani. This project took over 1.5 months to build. First, I created the backend routers and then started fetching them from my React frontend. Throughout this process, I learned how React works and how to implement it in a real-world application. I hope you love Quick Switch. It is not perfect—for example, it sometimes doesn't answer long math problems, or it uses the number 11 as a placeholder, etc. I tried my best to fix these issues and will keep working hard until they are gone._
+_"Hi! I am Abhishek Sahani. This project took over 1.5 months to build. First, I created the backend routers and then started fetching them from my React frontend. Throughout this process, I learned how React works and how to implement it in a real-world application. I hope you love Quick Switch. It is not perfect—for example, it sometimes doesn't answer long math problems, or it uses the number 11 as a placeholder, etc. I tried my best to fix these issues and will keep working hard until they are gone."_
 
 ---
 

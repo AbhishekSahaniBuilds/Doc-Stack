@@ -18,6 +18,13 @@ A lightweight, browser-based AI chatbot designed for quick conversations using A
 - **Documentation:** [Quick Switch](./Quick-Switch/)
 - **Repository:** [GitHub](https://github.com/AbhishekSahaniBuilds/Quick-Switch)
 
+### Doc Stack - Documenting Every Build
+
+A centralized technical documentation hub for all projects.
+
+- **Documentation:** [Doc Stack](./Doc-Stack/)
+- **Repository:** [GitHub](https://github.com/AbhishekSahaniBuilds/Doc-Stack)
+
 ---
 
 ## <u>Project Philosophy</u>
