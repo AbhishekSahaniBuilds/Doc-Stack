@@ -1,4 +1,9 @@
-# ⚡ Quick Switch
+---
+title: Quick Switch
+description: A fast, lightweight AI chatbot built for instant conversations.
+---
+
+# Quick Switch
 
 ## Fast Response, Less Waiting!
 
@@ -14,54 +19,54 @@ Powered by **Groq** and built with **React** and **FastAPI**, Quick Switch focus
 
 ---
 
-## 📑 Table of Contents
+## <u>Table of Contents</u>
 
-- [✨ Features](#-features)
-- [🚀 Future Goals](#-future-goals)
-- [🌐 Live Demo & Links](#-live-demo--links)
-- [🛠️ Technology Stack](#️-technology-stack)
-- [🏗️ Project Architecture](#️-project-architecture)
-- [📂 Project Structure](#-project-structure)
-- [⚙️ Prerequisites](#️-prerequisites)
-- [📥 Installation and Setup](#-installation-and-setup)
-- [🔑 Environment Variables](#-environment-variables)
-- [▶️ Running Locally](#️-running-locally)
-- [📦 Production Build](#-production-build)
-- [☁️ Deployment](#️-deployment)
-- [🔌 API Documentation](#-api-documentation)
-- [📖 How to Use](#-how-to-use)
-- [⚠️ Current Limitations](#️-current-limitations)
-- [🔒 Security and Privacy](#-security-and-privacy)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
-- [🙏 Acknowledgements](#-acknowledgements)
-- [💻 Developer](#-developer)
+- [Features](#features)
+- [Future Goals](#future-goals)
+- [Live Demo & Links](#live-demo--links)
+- [Technology Stack](#technology-stack)
+- [Project Architecture](#project-architecture)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Installation and Setup](#installation-and-setup)
+- [Environment Variables](#environment-variables)
+- [Running Locally](#running-locally)
+- [Production Build](#production-build)
+- [Deployment](#deployment)
+- [API Documentation](#api-documentation)
+- [How to Use](#how-to-use)
+- [Current Limitations](#current-limitations)
+- [Security and Privacy](#security-and-privacy)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Developer](#developer)
 
 ---
 
-## ✨ Features
+## <u>Features</u>
 
-Quick Switch currently includes the following functionality:
+Quick Switch currently includes the following functionality.
 
-### 💬 AI Conversations
+### AI Conversations
 
 - Real-time AI conversations.
 - Interact with AI models through a simple chat interface.
 - Select an available model before starting a session.
 
-### 🧠 AI Model Selection
+### AI Model Selection
 
 - Select between available Groq models.
 - Retrieve available model information dynamically through the backend.
 - Choose models based on their availability.
 
-### 💾 Conversation History
+### Conversation History
 
 - Automatically save conversation history.
 - Store conversations locally in the browser using `localStorage`.
 - No backend database is required for conversation history.
 
-### 🎨 User Interface
+### User Interface
 
 - Lightweight and responsive interface.
 - Clean and simple design.
@@ -69,12 +74,12 @@ Quick Switch currently includes the following functionality:
 - Mobile-friendly layout.
 - Markdown rendering for formatted AI responses.
 
-### ⚙️ Customization
+### Customization
 
 - Settings page for managing chatbot preferences.
 - Adjust the AI model's temperature.
 
-### 🔓 No Mandatory Account
+### No Mandatory Account
 
 - No login required.
 - No signup required.
@@ -82,7 +87,7 @@ Quick Switch currently includes the following functionality:
 
 ---
 
-## 🚀 Future Goals
+## <u>Future Goals</u>
 
 Quick Switch is continuously evolving. The following are ideas and potential improvements, not guaranteed features or delivery commitments.
 
@@ -103,23 +108,23 @@ Quick Switch is continuously evolving. The following are ideas and potential imp
 
 ---
 
-## 🌐 Live Demo & Links
+## <u>Live Demo & Links</u>
 
-🚀 **Live Website:** https://abhisheksahanibuilds.github.io/Quick-Switch
+**Live Website:** [Quick Switch](https://abhisheksahanibuilds.github.io/Quick-Switch)
 
-⚙️ **Backend API:** https://quick-switch-backend.onrender.com
+**Backend API:** [Quick Switch Backend](https://quick-switch-backend.onrender.com)
 
-💻 **GitHub Repository:** https://github.com/AbhishekSahaniBuilds/Quick-Switch
+**GitHub Repository:** [Quick Switch on GitHub](https://github.com/AbhishekSahaniBuilds/Quick-Switch)
 
 ---
 
-## 🛠️ Technology Stack
+## <u>Technology Stack</u>
 
 Quick Switch uses a separate frontend and backend within a single repository.
 
 | Technology     | Purpose                            |
 | -------------- | ---------------------------------- |
-| React          | Frontend framework                 |
+| React          | Frontend library                   |
 | JavaScript     | Frontend programming language      |
 | HTML           | Page structure                     |
 | Vanilla CSS    | Styling                            |
@@ -134,7 +139,7 @@ Quick Switch uses a separate frontend and backend within a single repository.
 
 ---
 
-## 🏗️ Project Architecture
+## <u>Project Architecture</u>
 
 Quick Switch follows a frontend-backend architecture.
 
@@ -150,7 +155,7 @@ Quick Switch follows a frontend-backend architecture.
                     |
                     | Groq API
                     v
-                GROQ AI
+                  GROQ AI
                     |
                     v
              AI Generated Response
@@ -178,7 +183,7 @@ Quick Switch follows a frontend-backend architecture.
 
 ---
 
-## 📂 Project Structure
+## <u>Project Structure</u>
 
 The repository contains both frontend and backend code.
 
@@ -219,7 +224,7 @@ _This is a simplified project structure. Additional files and directories may ex
 
 ---
 
-## ⚙️ Prerequisites
+## <u>Prerequisites</u>
 
 Before running Quick Switch locally, make sure you have:
 
@@ -234,7 +239,7 @@ The exact minimum Node.js and Python versions have not yet been established.
 
 ---
 
-## 📥 Installation and Setup
+## <u>Installation and Setup</u>
 
 ### 1. Clone the Repository
 
@@ -280,11 +285,11 @@ pip install -r requirements.txt
 
 Create a `.env` file in the backend directory and add your Groq API key.
 
-See the [Environment Variables](#-environment-variables) section.
+See the [Environment Variables](#environment-variables) section.
 
 ---
 
-## 🔑 Environment Variables
+## <u>Environment Variables</u>
 
 Quick Switch requires a Groq API key to communicate with Groq models.
 
@@ -307,11 +312,11 @@ GROQ_API=your_groq_api_key_here
 
 Get your API key from:
 
-https://console.groq.com/keys
+[Groq Console](https://console.groq.com/keys)
 
 ---
 
-## ▶️ Running Locally
+## <u>Running Locally</u>
 
 Quick Switch has two independently running applications.
 
@@ -345,7 +350,7 @@ The backend must be running for AI conversations and model retrieval to work.
 
 ---
 
-## 📦 Production Build
+## <u>Production Build</u>
 
 To build the React frontend for production:
 
@@ -358,7 +363,7 @@ The generated production files will be placed in the build output directory conf
 
 ---
 
-## ☁️ Deployment
+## <u>Deployment</u>
 
 Quick Switch keeps both frontend and backend in the same GitHub repository but deploys them separately.
 
@@ -394,7 +399,7 @@ uvicorn main:app --host 0.0.0.0 --port $PORT
 
 Configure the following environment variable in the Render dashboard:
 
-```env
+```bash
 GROQ_API=your_groq_api_key_here
 ```
 
@@ -402,7 +407,7 @@ GROQ_API=your_groq_api_key_here
 
 ---
 
-## 🔌 API Documentation
+## <u>API Documentation</u>
 
 Quick Switch uses FastAPI to expose backend endpoints.
 
@@ -471,7 +476,7 @@ API authentication is currently not implemented.
 
 ---
 
-## 📖 How to Use
+## <u>How to Use</u>
 
 Getting started with Quick Switch is simple.
 
@@ -487,7 +492,7 @@ No account creation or login is required.
 
 ---
 
-## ⚠️ Current Limitations
+## <u>Current Limitations</u>
 
 Quick Switch is actively being developed. Some features are not currently available.
 
@@ -508,7 +513,7 @@ The project may change as development continues.
 
 ---
 
-## 🔒 Security and Privacy
+## <u>Security and Privacy</u>
 
 Quick Switch is designed to work without mandatory user accounts.
 
@@ -532,7 +537,7 @@ Users should avoid entering sensitive personal information into AI conversations
 
 ---
 
-## 🤝 Contributing
+## <u>Contributing</u>
 
 Contributions to Quick Switch are welcome!
 
@@ -551,22 +556,16 @@ If you are a developer and want to improve the project, you can contribute.
 ### Example Commands
 
 ```bash
-# Fork the repository on GitHub first
-
 git clone https://github.com/YOUR_USERNAME/Quick-Switch.git
 
 cd Quick-Switch
 
-# Create a new branch
 git checkout -b feature/your-feature-name
 
-# Stage your changes
 git add .
 
-# Commit changes
 git commit -m "Add: your feature description"
 
-# Push your branch
 git push origin feature/your-feature-name
 ```
 
@@ -574,7 +573,7 @@ Please keep contributions focused on improving performance, usability, reliabili
 
 ---
 
-## 📜 License
+## <u>License</u>
 
 Quick Switch is an open-source project in intent.
 
@@ -584,7 +583,7 @@ Until a license is selected and included, the project's reuse, modification, and
 
 ---
 
-## 🙏 Acknowledgements
+## <u>Acknowledgements</u>
 
 Quick Switch is built with the help of these technologies and services:
 
@@ -595,7 +594,7 @@ Quick Switch is built with the help of these technologies and services:
 
 ---
 
-## 💻 Developer
+## <u>Developer</u>
 
 **Abhishek Sahani**
 
@@ -607,12 +606,14 @@ Project Repository:
 
 [Quick Switch on GitHub](https://github.com/AbhishekSahaniBuilds/Quick-Switch)
 
-**Personal Note:** <i>"Hi! I am Abhishek Sahani. This project took over 1.5 months to build. First, I created the backend routers and then started fetching them from my React frontend. Throughout this process, I learned how React works and how to implement it in a real-world application. I hope you love Quick Switch. It is not perfect—for example, it sometimes doesn't answer long math problems, or it uses the number 11 as a placeholder, etc. I tried my best to fix these issues and will keep working hard until they are gone."</i>
+**Personal Note:**
+
+_Hi! I am Abhishek Sahani. This project took over 1.5 months to build. First, I created the backend routers and then started fetching them from my React frontend. Throughout this process, I learned how React works and how to implement it in a real-world application. I hope you love Quick Switch. It is not perfect—for example, it sometimes doesn't answer long math problems, or it uses the number 11 as a placeholder, etc. I tried my best to fix these issues and will keep working hard until they are gone._
 
 ---
 
 <p align="center">
-  Made with ❤️ by Abhishek Sahani
+  Made by Abhishek Sahani
   <br>
   <strong>Quick Switch — Fast Response, Less Waiting.</strong>
 </p>

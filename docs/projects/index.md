@@ -1,26 +1,26 @@
 ---
 title: Projects
-description: Explore the software, AI, and development projects by Abhishek Sahani.
+description: Documentation, technical details, and development notes for documented projects.
 ---
 
 # Projects
 
-A collection of my independent projects, experiments, and practical implementations.
+A central index of projects documented in Doc-Stack, including their functionality, implementation, technologies, and development notes.
 
-I build projects with a focus on speed, simplicity, accessibility, and functionality.
-
-## Project List
+## <u>Project List</u>
 
 ---
 
-### ⚡ Quick Switch - Fast Response, Less Waiting!
+### Quick Switch - Fast Response, Less Waiting!
 
-- **See Documentation:** [Quick Switch](./Quick-Switch/)
-- **Repository:** [Github](https://github.com/AbhishekSahaniBuilds/Quick-Switch)
+A lightweight, browser-based AI chatbot designed for quick conversations using AI models.
+
+- **Documentation:** [Quick Switch](./Quick-Switch/)
+- **Repository:** [GitHub](https://github.com/AbhishekSahaniBuilds/Quick-Switch)
 
 ---
 
-## Project Philosophy
+## <u>Project Philosophy</u>
 
 I believe useful software doesn't need unnecessary complexity. My projects prioritize:
 

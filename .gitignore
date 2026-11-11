@@ -44,3 +44,7 @@ dist/
 build/
 out/
 target/
+
+
+# My files
+add_new_project.txt
