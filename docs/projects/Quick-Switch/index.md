@@ -58,7 +58,6 @@ Quick Switch currently includes the following functionality.
 
 - Select between available Groq models.
 - Retrieve available model information dynamically through the backend.
-- Choose models based on their availability.
 
 ### Conversation History
 
@@ -78,6 +77,7 @@ Quick Switch currently includes the following functionality.
 
 - Settings page for managing chatbot preferences.
 - Adjust the AI model's temperature.
+- Add custom system prompts to make the bot behave like that.
 
 ### No Mandatory Account
 
@@ -155,10 +155,11 @@ Quick Switch follows a frontend-backend architecture.
                     |
                     | Groq API
                     v
-                  GROQ AI
+              GROQ AI Model
                     |
+                    |AI Response
                     v
-             AI Generated Response
+              FastAPI Backend
                     |
                     v
               React Frontend
@@ -222,6 +223,8 @@ Quick-Switch/
 
 _This is a simplified project structure. Additional files and directories may exist._
 
+_To see the full Folder Structure go to the [GitHub Repository](https://github.com/AbhishekSahaniBuilds/Quick-Switch)_
+
 ---
 
 ## <u>Prerequisites</u>
@@ -235,7 +238,13 @@ Before running Quick Switch locally, make sure you have:
 - A [Groq API key](https://console.groq.com/keys)
 - Git
 
-The exact minimum Node.js and Python versions have not yet been established.
+**Keep in mind:**
+
+| Software | Version                | Recommendation |
+| -------- | ---------------------- | -------------- |
+| Python   | Minimum 3.10 or higher | 3.12 or 3.13   |
+| Node     | Minimum 20 or higher   | 24 LTS         |
+| npm      | Minimum 10.8 or higher | 11.19          |
 
 ---
 
@@ -296,7 +305,7 @@ Quick Switch requires a Groq API key to communicate with Groq models.
 Create a `.env` file inside the backend directory:
 
 ```bash
-GROQ_API=your_groq_api_key_here
+GROQ_API=your_groq_api_key
 ```
 
 | Variable   | Description                      | Required |
@@ -329,7 +338,7 @@ cd frontend
 npm run dev
 ```
 
-Open the local URL displayed by the frontend development server.
+Open the local URL, displayed by the frontend development server, in your browser.
 
 ### Start the Backend
 
@@ -347,6 +356,10 @@ python main.py
 ```
 
 The backend must be running for AI conversations and model retrieval to work.
+
+**Important:** If you are using IDEs or text editors like _VS Code_ or _PyCharm_, you must open the frontend folder and the backend folder separately in different windows to run them properly; opening the root parent folder will cause errors.
+
+**How to run in the terminal:** To run both services via the command line, open two separate terminal tabs or windows—one navigated to the frontend directory and the other to the backend directory—and then run the corresponding startup commands in each.
 
 ---
 
@@ -383,7 +396,7 @@ The workflow is located at the repository root, not inside the frontend director
 
 ### Backend Deployment — Render
 
-Render is the planned hosting platform for the FastAPI backend.
+Render is the hosting platform for the FastAPI backend.
 
 Build command:
 
@@ -403,8 +416,6 @@ Configure the following environment variable in the Render dashboard:
 GROQ_API=your_groq_api_key_here
 ```
 
-**Note:** Backend deployment on Render is not yet completed.
-
 ---
 
 ## <u>API Documentation</u>
@@ -413,11 +424,11 @@ Quick Switch uses FastAPI to expose backend endpoints.
 
 ### Base Endpoints
 
-| Method | Endpoint          | Description                      |
-| ------ | ----------------- | -------------------------------- |
-| GET    | `/`               | Basic documentation / Easter egg |
-| GET    | `/bot/get_models` | Retrieves available AI models    |
-| POST   | `/bot/prompt`     | Sends a prompt to an AI model    |
+| Method | Endpoint          | Description                   |
+| ------ | ----------------- | ----------------------------- |
+| GET    | `/`               | Basic discription             |
+| GET    | `/bot/get_models` | Retrieves available AI models |
+| POST   | `/bot/prompt`     | Sends a prompt to an AI model |
 
 ### 1. GET `/`
 
