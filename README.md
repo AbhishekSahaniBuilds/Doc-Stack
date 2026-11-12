@@ -1,4 +1,3 @@
-
 # Doc-Stack
 
 ### Documenting Every Build.
@@ -18,15 +17,15 @@ Built with **VitePress**, Doc-Stack organizes technical knowledge into a structu
 
 ## Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| VitePress | Documentation framework |
-| Markdown | Documentation content |
-| TypeScript | Configuration |
-| Vue | VitePress framework |
-| Git & GitHub | Version control |
-| GitHub Actions | Automated deployment |
-| GitHub Pages | Website hosting |
+| Technology     | Purpose                 |
+| -------------- | ----------------------- |
+| VitePress      | Documentation framework |
+| Markdown       | Documentation content   |
+| TypeScript     | Configuration           |
+| Vue            | VitePress framework     |
+| Git & GitHub   | Version control         |
+| GitHub Actions | Automated deployment    |
+| GitHub Pages   | Website hosting         |
 
 ## Run Locally
 
@@ -60,5 +59,7 @@ Doc-Stack serves as a record of project development, technical experiments, impl
 ---
 
 <p align="center">
+  Made with ❤️ by Abhishek Sahani
+  <br>
   <strong>Doc-Stack — Documenting Every Build.</strong>
 </p>

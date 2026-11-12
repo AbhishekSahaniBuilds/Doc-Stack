@@ -71,7 +71,7 @@ A reference of the technologies, frameworks, libraries, development tools, and h
 
 ## <u>Technology Usage Across Projects</u>
 
-### Doc-Stack (This Documentation)
+### Doc-Stack
 
 | Category        | Technologies                 |
 | --------------- | ---------------------------- |

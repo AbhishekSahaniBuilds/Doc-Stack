@@ -243,12 +243,13 @@ Doc-Stack/
 │   ├── index.md
 │   ├── projects/
 │   │   ├── index.md
-│   │   ├── Doc-Stack/
-│   │   │   └── index.md
-│   │   ├── Quick-Switch/
-│   │   │   └── index.md
-│   │   └── To-Do-List/
-│   │       └── index.md
+|   |   |
+│   │   ├── ...
+│   │   |
+│   │   ├── ...
+│   │   |
+│   │   └── ...
+│   │
 │   ├── technologies/
 │   │   └── index.md
 │   └── .vitepress/
@@ -277,7 +278,7 @@ Doc-Stack/
 
 _This structure represents the documentation organization. Additional files and directories may exist._
 
----
+_To see the full Folder Structure go to the [GitHub Repository](https://github.com/AbhishekSahaniBuilds/Doc-Stack)_
 
 ## <u>Prerequisites</u>
 
